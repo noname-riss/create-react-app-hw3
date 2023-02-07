@@ -3,22 +3,31 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+  
+
+ <div class="card">
+   <img src="https://www.psu.edu/PSU-mark-navy.jpg"/>
+    <h1>Penn State Hax</h1>
+    <p> Here is the class website for IST 256 and Haxpsu:
+    <a href="https://hax.psu.edu/">
+ 
+   </a> </p>
+     <button class="button">
+       Details
+   </button>
+
+
+   <div class="buttonHolder">
+     <button class="toggle"> Add Frame </button>
+ 
+   <button class="chageBG">Change Background</button>
+ 
+    <button class="chageti">Change Title</button>
+ 
+   <button class="delete">Delete last card</button>
+ </div>
+   </div>
   );
 }
 
