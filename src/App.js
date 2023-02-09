@@ -7,7 +7,7 @@ function App() {
   
 
  <div class="card">
-   <img src="https://www.psu.edu/PSU-mark-navy.jpg"/>
+   <img src="https://www.psu.edu/PSU-mark-navy.jpg" width={400}/>
     <h1>Penn State Hax</h1>
     <p> Here is the class website for IST 256 and Haxpsu:
     <a href="https://hax.psu.edu/">

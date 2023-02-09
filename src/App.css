@@ -24,6 +24,18 @@
   color: white;
 }
 
+.card{
+  border: 10px solid blue;
+  background-color: blue;
+  max-width: 400px;
+}
+
+
+.button{
+  text-transform: uppercase;
+  padding: 8px;
+}
+
 .App-link {
   color: #61dafb;
 }
